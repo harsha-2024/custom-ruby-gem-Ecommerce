@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+require 'bundler/setup'
+require 'megastore_ops'
+
+puts 'MegastoreOps console loaded.'
+require 'irb'
+IRB.start
